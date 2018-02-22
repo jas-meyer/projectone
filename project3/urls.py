@@ -23,5 +23,4 @@ urlpatterns = [
     url(r'^', include('apps.amadon.urls')),
     url(r'^', include('apps.ninjagold.urls')),
     url(r'^', include('apps.users.urls')),
-    url(r'^', include('apps.login.urls')),
 ]
